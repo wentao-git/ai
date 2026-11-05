@@ -1,0 +1,12 @@
+{
+  "name": "ai",
+  "version": "0.0.1",
+  "private": true,
+  "description": "React + NestJS 全栈项目",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run start:dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server"
+  }
+}
