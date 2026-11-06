@@ -1,0 +1,36 @@
+{
+  "opts": {
+    "strategy": "both",
+    "stock": 20,
+    "requests": 100,
+    "connections": 50
+  },
+  "reports": [
+    {
+      "strategy": "naive",
+      "initialStock": 20,
+      "requests": 100,
+      "ok2xx": 100,
+      "failed4xx": 0,
+      "errors": 0,
+      "ordersCreated": 100,
+      "finalStock": 16,
+      "soldByStock": 4,
+      "oversell": 96,
+      "p99LatencyMs": 292
+    },
+    {
+      "strategy": "atomic",
+      "initialStock": 20,
+      "requests": 100,
+      "ok2xx": 20,
+      "failed4xx": 80,
+      "errors": 0,
+      "ordersCreated": 20,
+      "finalStock": 0,
+      "soldByStock": 20,
+      "oversell": 0,
+      "p99LatencyMs": 241
+    }
+  ]
+}
