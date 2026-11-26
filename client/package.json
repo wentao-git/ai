@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:node": "vite --mode node-server",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
