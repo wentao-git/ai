@@ -1,0 +1,17 @@
+{
+  "name": "server-node",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "票务预订系统 - 原生 Node/Express + MySQL 版（与 server/ NestJS 版功能相同，用于对比学习）",
+  "scripts": {
+    "dev": "node --watch src/main.js",
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0",
+    "mysql2": "^3.11.0"
+  }
+}
